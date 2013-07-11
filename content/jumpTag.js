@@ -126,13 +126,13 @@ JumpToTag.JumpTag = {
         //this.clearTimeout();
         
         var keyTag = null;
-        for(var key in this.keys) {
-          if (event.keyCode == key.key) {
-            keyTag = key;
+        for(var i = 0; i < this.keys.length; i++) {
+          if (event.keyCode == this.keys[i].key) {
+            keyTag = this.keys[i];
             break;
           }
         }
-        Firebug.Console.log(keyTag == null);
+        
         if (keyTag != null) {
           var taglist = this.doc.querySelectorAll(keyTag.tag);
           var minEle = null;
