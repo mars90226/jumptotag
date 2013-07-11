@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://jumptotag/skin/jumpTag.css" ?>
+
+<!DOCTYPE overlay SYSTEM
+  "chrome://jumptotag/locale/jumpTag.dtd">
+
+<overlay id="jumptotag-browser-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+  <script type="application/x-javascript"
+    src="chrome://jumptotag/content/keyConfig.js" />
+
+  <script type="application/x-javascript"
+    src="chrome://jumptotag/content/jumpTag.js" />
+
+</overlay>

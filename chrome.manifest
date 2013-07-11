@@ -1,0 +1,5 @@
+content   jumptotag                content/
+skin      jumptotag  classic/1.0   skin/
+locale    jumptotag  en-US         locale/en-US/
+
+overlay chrome://browser/content/browser.xul  chrome://jumptotag/content/jumpTag.xul
